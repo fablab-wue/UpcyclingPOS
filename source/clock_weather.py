@@ -28,7 +28,7 @@ SYS_LOCALE = 'de_DE.UTF-8'
 TEXT_FORMAT_1 = \
     '\x0B' + \
     '{dt:%H:%M:%S} {W_temp:3.0f}°C {W_humidity:3d}%ƒ' + \
-    '{dt:%a} {dt:%d}.{W_description:>14.14}'
+    '{dt:%a} {dt:%d}{W_description:>15.15}'
 TEXT_FORMAT_2 = \
     '\x0B' + \
     '{dt:%H:%M:%S} {W_pressure:4d}hPa{W_clouds:3d}≈' + \
